@@ -1,3 +1,5 @@
+<img src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText.png" data-canonical-src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText.png" width="200" height="200" />
+
 <h2 style ="color:#88398A"> #meetup-presentations_bucharest </h2>
 
 Here you will find our presentations and updates regarding R-Ladies Bucharest events.
