@@ -3,12 +3,13 @@
 ## R-Ladies Bucharest
 
 
-Here you will find our presentations and updates regarding R-Ladies Bucharest events.
+This repository contains the materials used during the meetup events held by R-Ladies Bucharest events.
 
-First meeting <text style="color:#88398A"> 17 September 2019, 6.30 PM. </text>
+1. First meeting <text style="color:#88398A"> 17 September 2019, 6.30 PM. </text>
 All details available on the [event](https://www.meetup.com/rladies-bucharest/events/264438688/) meetup page.
+Introductory presentations [here](https://github.com/rladies/meetup-presentations_bucharest/Meetup_01_2019-09-17/) here
 
- Contact us via [email](bucuresti@rladies.org) to get involved
+Contact us via [email](bucuresti@rladies.org) to get involved
 <br> Register on [meetup](https://www.meetup.com/rladies-bucharest/)
 <br> Follow us on [facebook](https://www.facebook.com/RLadiesBucharest) or [twitter](https://twitter.com/rladiesbuchares)
 
