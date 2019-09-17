@@ -7,7 +7,7 @@ This repository contains the materials used during the meetup events held by R-L
 
 1. First meeting <text style="color:#88398A"> 17 September 2019, 6.30 PM. </text>
 All details available on the [event](https://www.meetup.com/rladies-bucharest/events/264438688/) meetup page.
-<br>Introductory presentations [here](https://github.com/rladies/meetup-presentations_bucharest/Meetup_01_2019-09-17/)
+<br>Introductory presentations [here](https://github.com/rladies/meetup-presentations_bucharest/tree/master/Meetup_01_2019-09-17/)
 
 Contact us via [email](bucuresti@rladies.org) to get involved
 <br> Register on [meetup](https://www.meetup.com/rladies-bucharest/)
