@@ -10,9 +10,11 @@ All details available on the [event](https://www.meetup.com/rladies-bucharest/ev
 <br>Introductory presentations [here](https://github.com/rladies/meetup-presentations_bucharest/tree/master/Meetup_01_2019-09-17/)
 
 2. Second meeting  <text style="color:#88398A"> 22 October 2019, 6.45 PM. </text>
-Ana-Maria Ciuhu(Dobre) - pres(tbu)
-Tidyverse Hands-on. Vote [here](https://forms.gle/KLNGP2g7FiWfdnp47)
-Event Registration [here](https://www.meetup.com/rladies-bucharest/events/265386597/)
+Ana-Maria Ciuhu(Dobre) - [pres](https://github.com/rladies/meetup-presentations_bucharest/blob/master/Meetup_02_2019-10-22/02_RLadies_Bucharest-AnaMaria_Ciucu_Use_of_R_in_Official_Statistics.pdf)
+Tidyverse Hands-on. Votes posted [here](https://forms.gle/KLNGP2g7FiWfdnp47)
+[pres](https://github.com/rladies/meetup-presentations_bucharest/blob/master/Meetup_02_2019-10-22/02_RLadies_Bucharest_ChapterIntro_and_TidyTuesday.pdf) 
+
+3. Third meeting @ 26.11.2019 Soon more details [here](https://www.meetup.com/rladies-bucharest)
 
 Contact us via [email](bucuresti@rladies.org) to get involved
 <br> Register on [meetup](https://www.meetup.com/rladies-bucharest/)
