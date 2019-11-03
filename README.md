@@ -14,7 +14,7 @@ Ana-Maria Ciuhu(Dobre) - [pres](https://github.com/rladies/meetup-presentations_
 Tidyverse Hands-on. Votes posted [here](https://forms.gle/KLNGP2g7FiWfdnp47)
 [pres](https://github.com/rladies/meetup-presentations_bucharest/blob/master/Meetup_02_2019-10-22/02_RLadies_Bucharest_ChapterIntro_and_TidyTuesday.pdf) 
 
-2.11 - MeasureCamp Bucharest Presentation [here] (https://github.com/rladies/meetup-presentations_bucharest/blob/master/MCB_2019-11-02/MCB_Reasons_to_consider_R_in_digital_analytics_InesTeaca_20191102.pdf) R Script [here](https://github.com/rladies/meetup-presentations_bucharest/blob/master/MCB_2019-11-02/SimonaHalep_gTrendsR.R)
+  2.11 - MeasureCamp Bucharest Presentation [here](https://github.com/rladies/meetup-presentations_bucharest/blob/master/MCB_2019-11-02/MCB_Reasons_to_consider_R_in_digital_analytics_InesTeaca_20191102.pdf) R Script [here](https://github.com/rladies/meetup-presentations_bucharest/blob/master/MCB_2019-11-02/SimonaHalep_gTrendsR.R)
 
 3. Third meeting scheduled for 26.11.2019 Soon more details [here](https://www.meetup.com/rladies-bucharest/events/266186841/)
 
