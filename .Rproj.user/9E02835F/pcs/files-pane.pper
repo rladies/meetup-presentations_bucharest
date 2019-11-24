@@ -1,0 +1,13 @@
+{
+    "path" : "~/GitHub/meetup-presentations_bucharest",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 1
+        }
+    ]
+}
