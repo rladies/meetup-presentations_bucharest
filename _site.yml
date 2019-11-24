@@ -1,0 +1,29 @@
+name: "R-Ladies-Bucharest"
+navbar:
+  title: "R-Ladies Bucharest Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Meetups"
+      href: meetups.html
+  right:
+    - icon: fa-facebook fa-lg
+      href: https://www.facebook.com/RLadiesBucharest/
+    - icon: fa-meetup fa-lg
+      href: https://www.meetup.com/rladies-bucharest/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/rladiesbuchares
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/rladies
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/company/rladies/
+      
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

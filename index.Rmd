@@ -1,0 +1,20 @@
+---
+title: "Bucharest Chapter"
+---
+<img src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png" data-canonical-src="https://github.com/rladies/starter-kit/blob/master/logo/R-LadiesGlobal_RBG_online_LogoWithText_Horizontal.png" height="100" />
+
+## Latest News
+
+New Speakers building presentations on our last use case on Women in the Workforce </text>
+
+<br> Ana-Maria Niculescu, Experienced data scientist of using R in production  - Interactive data exploration and reporting with Shiny</text>
+
+<br> Maria Romanescu, Andra Garoi, Bucharest Statistics & Data Science Master students - Explore your data in R using dplyr </text>
+
+
+## Code of Conduct
+We follow the [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct) and encourage participants to read [Rules & Guidelines of R-Ladies](https://github.com/rladies/starter-kit/blob/master/R-Ladies_RulesGuidelines.pdf).
+
+## FAQ
+
+TBU
