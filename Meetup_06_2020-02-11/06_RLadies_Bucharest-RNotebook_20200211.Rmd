@@ -1,0 +1,115 @@
+---
+title: "R Notebook presentat @ R-Lades Bucharest Meetup 06"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+#MySQL part
+
+
+```{r}
+library(DBI)
+library(RMySQL)
+
+drv<- dbDriver("MySQL")
+con<- dbConnect(drv, 
+        username='root',
+        password='', 
+        dbname="classicmodels", 
+        host='127.0.0.1',
+        port=3306)
+
+```
+
+```{r}
+dbListTables(con)
+#This will return a list of the tables in our connection.
+
+```
+
+```{r}
+dbListFields(con, 'orders')
+#This will return a list of the fields in some_table.
+
+```
+
+```{r}
+dbGetQuery(con,"SELECT * FROM orders limit 5")
+```
+
+
+```{r}
+orders<-dbReadTable(con, 'orders')
+#Read table from database
+```
+
+## dplyr
+
+
+```{r}
+library(dplyr)
+library(lubridate)
+
+orders %>% group_by(status) %>% summarise(Total=n())
+
+#Prepare dates
+orders1<-mutate(orders,
+               week=isoweek(orderDate),
+               Shipped=ifelse(status=="Shipped",1,0),
+               Cancelled=ifelse(status=="Cancelled",1,0),
+               Progress=ifelse(status=="In Process",1,0))
+
+#Prepare summary for other places
+sumar_zile<-orders1 %>% 
+                group_by(week,orderDate) %>% 
+                summarize(Total=n(),
+                          Trimise=sum(Shipped),
+                          Anulate=sum(Cancelled),
+                          InProces=sum(Progress))
+               
+```
+
+```{r}
+# library(ggplot2)
+# 
+# g0<-ggplot(sumar_zile) +
+#   geom_point(aes(x = orderDate, y= Total))
+# g0
+# 
+# g<-ggplot(sumar_zile,aes(fill=week,x=orderDate, y=Total, label=Total))+
+#                   geom_col() +
+#                   ggtitle("Evolutie comenzi")
+# g
+```
+
+
+## openxlsx 
+```{r}
+library(openxlsx)
+```
+
+```{r}
+date_creation=gsub("-","_",Sys.Date())
+table<-sumar_zile
+
+a<-'Raport_'
+b<-'.xlsx'
+file<-paste(a, date_creation,b, sep="")
+
+header_style<-createStyle(halign = "center", textDecoration = "bold")
+
+wb <- createWorkbook()
+#Create an Excel workbook.
+
+
+addWorksheet(wb, "SheetulMeu")
+writeData(wb, sheet = "SheetulMeu", x = table, headerStyle = header_style)
+#This will create and write a sheet in the workbook we created.
+
+saveWorkbook(wb = wb, file = file, overwrite = T)
+#This will save the result as xlsx file.
+
+
+```
