@@ -24,7 +24,7 @@ This repository contains the materials used during the meetup events held by R-L
 | :- | :- | :--- | :---: | :---: |
 | 5 | `2020-01-29` | rstudio::conf 2020 'Watch Party'  | powered by RLB | Informal Gathering |
 | 6 | `2020-02-11` | [Moving from `Excel` to R, use case from `digital analytics` team](./Meetup_06_2020-02-11) | Andrei Deusteanu <br>Ines Teaca | Tutorial |
-| 7 | `2020-03-10` | [`International Women Day`]| Simona Gradinaru | Special |
+| 7 | `2020-03-10` | [`International Women's Day`](./Meetup_07_2020-03-10)| Simona Gradinaru | Special - Online |
 | 8 | `2020-04-07` | [Big Data Topic]| To be announced | Tutorial |
 
 ***
