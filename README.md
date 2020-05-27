@@ -26,7 +26,8 @@ This repository contains the materials used during the meetup events held by R-L
 | 6 | `2020-02-11` | [Moving from `Excel` to R, use case from `digital analytics` team](./Meetup_06_2020-02-11) | Andrei Deusteanu <br>Ines Teaca | Tutorial |
 | 7 | `2020-03-10` | [`International Women's Day`](./Meetup_07_2020-03-10)| Simona Gradinaru | Special - Online |
 | 8 | `2020-04-28` | [Developing credit risk scoring using R programming](./Meetup_08_2020-04-28)| Mihai David | Tutorial |
-| 9 | `2020-05-TBU` | Docker & R (TBC)| TBU | Tutorial |
+| 9 | `2020-05-26` | [Docker & R](./Meetup_09_2020-05-26) | Cristi Cernat | Tutorial |
+|10 | `2020-06-TBD` | Tentative topic Blogdown] | TBC | Tutorial |
 ***
 
 
