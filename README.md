@@ -27,7 +27,7 @@ This repository contains the materials used during the meetup events held by R-L
 | 7 | `2020-03-10` | [`International Women's Day`](./Meetup_07_2020-03-10)| Simona Gradinaru | Special - Online |
 | 8 | `2020-04-28` | [Developing credit risk scoring using R programming](./Meetup_08_2020-04-28)| Mihai David | Tutorial |
 | 9 | `2020-05-26` | [Docker & R](./Meetup_09_2020-05-26) | Cristi Cernat | Tutorial |
-|10 | `2020-06-TBD` | Tentative topic Blogdown] | TBC | Tutorial |
+|10 | `2020-06-30` | Blogging with R Blogdown | Rebecca Barter | Talk |
 ***
 
 
