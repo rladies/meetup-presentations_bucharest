@@ -32,7 +32,7 @@ This repository contains the materials used during the meetup events held by R-L
 |11 | `2020-09-29` | [R in Statistics, ML & DS, a 1st panel](./Meetup_11_2020_09_30) | All Stars | Panel |
 |12 | `2020-10-20` | [Text Mining with R](./Meetup_12_2020_10_20) | Aurore Paligot | Tutorial |
 |13 | `2020-11-24` | [GIT & Github for R users](./Meetup_13_2020_11_24)<br> [Raspberry pi & R](https://talks.frie.codes/2020-11-24_rladies_bucharest_raspberrypi/) | Ana-Maria Niculescu <br> Frie Prieu | Tutorial <br> Talk  |
-|14 | `2020-12-15` | [chRistmas shaRing|Special Edition](./Meetup_14_2020_12_15) | [book a spot](https://shorturl.at/fqFX6) | Sharing |
+|14 | `2020-12-15` | [chRistmas shaRing Special Edition](./Meetup_14_2020_12_15) | [book a spot](https://shorturl.at/fqFX6) | Sharing |
 
 ***
 
