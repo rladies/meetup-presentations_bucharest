@@ -1,0 +1,99 @@
+---
+title: "R-Ladies Bucharest Meetup #14"
+subtitle: 'chRistmas shaRing Special Edition'
+author: ''
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output:
+  xaringan::moon_reader:
+    css: ["kunoichi", "ninjutsu", "rladies-fonts"]
+    #css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, center, middle
+# Mișcare globală care promovează egalitatea de șanse în comunitatea de .purple[`r icon::fa("r-project", size=1)`] prin întâlniri, networking și sesiuni de lucru aplicate într-un mediu sigur și prietenos.
+
+
+Please read and respect our .purple[Global Code of Conduct] [`r anicon::faa("arrow-right", colour="#88398A", animate="horizontal",rtext="here")`](https://www.rladies.org/code-of-conduct)
+
+---
+class: center, middle
+--
+###Urmărește `r anicon::faa("twitter", colour="#88398A", animate="float",rtext="@WeAreRLadies")` pe twitter
+
+--
+###Înscrie-te în directorul de membri [R-Ladies](https://rladies.org/r-ladies-directory-form)
+
+--
+###Participă la discuțiile din Slack
+
+--
+.purple[SPREAD THE WORD!] 
+
+--
+.grey[TELL YOUR FRIENDS] 
+
+
+---
+class: inverse, center, middle
+
+--
+.purple[#nextmeetup] Tuesday, **TBU** February **2021**
+
+--
+
+<img src="./Meetup-Template-Blank.png" width="800" height="300">
+
+--
+### Follow our events: https://www.meetup.com/rladies-bucharest/events/
+
+
+
+
+---
+
+class: center, middle
+
+#Follow us
+
+--
+###`r anicon::faa("meetup",colour="#ed1c40", animate="float",rtext="@RLadies-Bucharest")` 
+
+--
+###`r anicon::faa("twitter", colour="#1da1f2", animate="float",rtext="@rladiesbucares")`
+
+--
+###`r anicon::faa("facebook", colour="#3b5998", animate="float",rtext="RLadiesBucharest")`
+
+
+# Thanks!
+
+Slides created using the R package [**xaringan**](https://github.com/yihui/xaringan)
+and the theme [**Kunichio**](https://github.com/emitanaka/ninja-theme).
+
+---
+
+class: center, middle
+#Agenda
+
+--
+###`r anicon::faa("music",colour="#211F1F", animate="float",rtext="7.00-7.15 Energised #goodRvibes By Gabriel Stravre. Live on Facebook!")`
+
+--
+###`r anicon::faa("r-project",colour="#88398A", animate="float",rtext="7.20 Marius Tita")`
+
+--
+###`r anicon::faa("r-project",colour="#88398A", animate="float",rtext="7.30 Simona Grădinaru")`
+
+--
+###`r anicon::faa("r-project",colour="#88398A", animate="float",rtext="7.40 Maria Romanescu")`
+
+--
+###`r anicon::faa("r-project",colour="#88398A", animate="float",rtext="7.50 Gabriel Stavre")`
+
+--
+###`r anicon::faa("r-project",colour="#88398A", animate="float",rtext="8.00 Ines Teacă")`

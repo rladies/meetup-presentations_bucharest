@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>How to build a simple xaringan presentation with kunoichi theme</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ines Teaca" />
+    <link href="libs/remark-css-0.0.1/kunoichi.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/ninjutsu.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rladies-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome-5.0.12/css/fontawesome-all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# How to build a simple xaringan presentation with kunoichi theme
+## R-Ladies Bucharest Meetup #14
+### Ines Teaca
+### 14 December, 2020
+
+---
+
+class: bg-main1 split-30 hide-slide-number
+
+.column.bg-main3[
+]
+.column.slide-in-right[
+.sliderbox.bg-main2.vmiddle[
+.font5[Let's Start]
+]]
+
+---
+layout: false
+class: split-33
+
+.column.bg-main1[.content[
+&lt;br&gt;
+   &lt;center&gt;&lt;img src="./img/logoxaringan.png" width="200" height="200"&gt; &lt;/center&gt;
+]]
+.column.bg-main2[.content[
+
+&lt;br&gt;
+&lt;br&gt;
+ -  **xaringan package::intro** An R package for creating slideshows with remark.js through R Markdown. 
+ 
+ -  **xaringan package::name** comes from Sharingan, a dōjutsu in Naruto with two abilities: the "Eye of Insight" and the "Eye of Hypnotism".
+ 
+ -  **xaringan package::about** to learn more about xaringan, review the excellent [xaringan introduction](https://bookdown.org/yihui/rmarkdown/xaringan.html) from the package's author Yihui Xi.
+
+ - **xaringan package::author** Review yihui [site](https://yihui.org/) for more information about the xaringan package.
+
+
+]]
+
+---
+class: inverse, middle
+# .purple[The fast track for starting up]
+&lt;br&gt;
+## First of all, install the xaringan package:
+
+
+```r
+install.packages("xaringan")
+```
+## Second, create new
+
+- Create a new R Markdown document from the RStudio menu: 
+
+ `File -&gt; New File -&gt; R Markdown -&gt; From Template -&gt; Ninja Presentation`
+
+## Render to html
+
+- Click the Knit button to compile it, or
+
+- Use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/) "Infinite Moon Reader" to live preview the slides.
+
+- Every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+
+---
+# Kunoichi theme
+
+--
+- For choosing the right theme, check the package website 
+- Another option, would be to try each one of them, after listing the options in the console like this:
+
+```
+  names(xaringan:::list_css())
+```
+--
+- The theme I am using here is [emitanaka's kunoichi theme](https://emitanaka.org/ninja-theme/themes/kunoichi/kunoichi-theme-example.html)
+- Select this theme for your presentation by adding in the YAML section:
+
+```
+output:
+  xaringan::moon_reader:
+    css: ["kunoichi", "ninjutsu"]
+```
+
+---
+# Things I like (1)
+
+--
+- Reproductible approach for presenting ideas, results or, even, analyses.
+
+--
+- Lots of customizable and dinamic things
+
+--
+- Autoplay ( e.g. for 30 seconds)
+
+```
+    output:
+      xaringan::moon_reader:
+        nature:
+          autoplay: 30000
+
+```
+
+--
+- Countdown ( e.g. for 1 minute)
+
+```
+    output:
+      xaringan::moon_reader:
+        nature:
+          countdown: 60000
+```
+
+---
+# Things I like (2)
+
+--
+- It works with gifs, tweets, youtube &lt;br&gt;
+<i class="fas  fa-leaf "></i> &lt;br&gt;
+ ![](https://media.giphy.com/media/WQr2txk5iEYUS6Kv3d/giphy.gif)
+
+
+--
+- It can be shared using xaringanextra
+
+
+--
+- It can be customised with your css file
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan) and the theme [**Kunichio**](https://github.com/emitanaka/ninja-theme).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
