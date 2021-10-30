@@ -9,3 +9,4 @@
 - tidytuesday? 22/23 noiembrie -  lipit cu URos 
 - inspo: https://github.com/rfordatascience/tidytuesday
 - maybe work with Colab?
+- make sure we have Zoom
