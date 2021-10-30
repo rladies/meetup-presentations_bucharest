@@ -10,3 +10,4 @@
 - inspo: https://github.com/rfordatascience/tidytuesday
 - maybe work with Colab?
 - make sure we have Zoom
+- meetup 
