@@ -43,9 +43,9 @@ Additional information: [bucuresti@rladies.org](mailto:bucuresti@rladies.org)
 
 Follow us on twitter: @[RLadiesBuchares](https://twitter.com/RLadiesBuchares) or Facebook [RLadiesBucharest](https://www.facebook.com/RLadiesBucharest)
 
-Website [rladiesbucharest.org](http://www.rladiesbucharest.org/)
+Website [rladies-bucharest.github.io/](https://rladies-bucharest.github.io/)
 
-Chapter Lead: [Ines](https://twitter.com/ineszz); Members: Ana-Maria, Andra, Maria, Simona
+Chapter Lead Team: Ana-Maria ( Co-Organisers ) , Simona ( Co-Organisers )
 
 ***
 
